@@ -1,0 +1,38 @@
+main {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)),
+    url(https://i.imgur.com/LSFIPd8.jpg?1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section {
+  /* position: relative; */
+  padding: 60px 0;
+  display: flex;
+  gap: 10px 20px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 1) 35%, rgba(44, 24, 14, 1) 100%);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  margin: 0;
+  width: 100%;
+}
+
+footer h1 {
+  font-size: 18px;
+  font-weight: 400;
+}
+footer h1 img {
+  width: 17px;
+  margin: 0;
+  border-radius: 50%;
+}
