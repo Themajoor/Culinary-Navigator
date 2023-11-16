@@ -4,8 +4,8 @@ import "./index.css";
 import App from "./App";
 import { Auth0Provider } from "@auth0/auth0-react";
 
-const domain = process.env.REACT_APP_AUTH0_DOMAIN;
-const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID;
+const domain = "dev-eqpt31654fuo4yf7.us.auth0.com"
+const clientId = "9k4stjS0tEzupYqpJPRDvJ7bnOycu1Ye"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
